@@ -1,0 +1,22 @@
+{
+  "name": "lejeudelavie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ade32000/le_jeu_de_la_vie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ade32000/le_jeu_de_la_vie/issues"
+  },
+  "homepage": "https://github.com/Ade32000/le_jeu_de_la_vie#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
