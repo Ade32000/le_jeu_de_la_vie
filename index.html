@@ -6,8 +6,42 @@
 	<title>Le jeu de la vie</title>
 </head>
 <body>
+	<h1>Le jeu de la vie</h1>
+
+	<canvas id="myCanvas">
+		
+	</canvas>
 	
 
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+	<script>
+
+		var plant = new Image();
+
+		function init(){
+			plant.src = 'images/plante.png';
+			window.requestAnimationFrame(draw);
+		}
+
+		function draw() {
+			var ctx = document.getElementById('myCanvas').getContext('2d');
+
+			}
+
+init();
+
+</script>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
